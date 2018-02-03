@@ -56,4 +56,10 @@ public class SetMap<K, V> {
         return map.keySet();
     }
 
+    /**
+     * Clears the map.
+     */
+    public void clear() {
+        map.clear();
+    }
 }
